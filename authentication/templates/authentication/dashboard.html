@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Dashboard</title>
+    <style>
+        .container {
+            margin-top: 50px;
+        }
+        .logout-button {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Welcome Section -->
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Welcome to Your Dashboard!</h1>
+                <p>Hi, <strong>{{ user.first_name }} {{ user.last_name }}</strong>!</p>
+                <p>Your email: <strong>{{ user.username }}</strong></p>
+            </div>
+        </div>
+
+        <!-- Content Section -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h2 class="card-title">Dashboard Overview</h2>
+                        <p class="card-text">
+                            This is your dashboard
+                            profiles, and more!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Logout Button -->
+        <div class="row mt-3 logout-button">
+            <div class="col-12">
+                <a href="/logout/" class="btn btn-danger">Logout</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
