@@ -193,7 +193,7 @@ This project is licensed under the **MIT License**. You are free to use, modify,
 
 ## Contact
 For questions or suggestions, feel free to reach out:
-- **Email**: your-email@example.com
-- **GitHub**: [yourusername](https://github.com/yourusername)
+- **Email**: niyigabatheo10@gmail.com
+- **GitHub**: [Trtheo](https://github.com/Trtheo)
 
->>>>>>> cc59df177dfdbd7bababa987186d4d08248a6666
+
