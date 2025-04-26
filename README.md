@@ -126,7 +126,7 @@ Follow these steps to set up and run the project locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/your-repository.git
+git clone https://github.com/yourusername/regiser-login-auth-django.git
 cd your-repository
 ```
 
